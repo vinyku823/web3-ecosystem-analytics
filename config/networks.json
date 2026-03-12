@@ -1,0 +1,9 @@
+{
+ "chains":[
+  "Ethereum",
+  "Aptos",
+  "Solana",
+  "Polygon",
+  "Arbitrum"
+ ]
+}
