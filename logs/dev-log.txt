@@ -1,0 +1,14 @@
+Day 1
+Project initialized
+
+Day 2
+Analytics module created
+
+Day 3
+Blockchain ecosystem tracker implemented
+
+Day 4
+Data collector module added
+
+Day 5
+Testing analytics workflow
