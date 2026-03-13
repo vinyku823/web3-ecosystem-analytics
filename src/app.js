@@ -9,3 +9,8 @@ analytics.loadProjects()
 tracker.scanActivity()
 
 collector.collectData()
+// src/app.js
+const analytics = require("./analytics")
+
+console.log("🚀 Starting Web3 Ecosystem Analytics Tool...")
+// Future: API integration, real-time updates
