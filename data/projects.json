@@ -5,3 +5,12 @@
  {"name":"EigenLayer","category":"Restaking"},
  {"name":"Celestia","category":"Modular blockchain"}
 ]
+{ "name": "Uniswap", "network": "Ethereum", "category": "DeFi", "status": "active" },
+{ "name": "Aave", "network": "Ethereum", "category": "DeFi", "status": "active" },
+{ "name": "OpenSea", "network": "Ethereum", "category": "NFT", "status": "active" },
+
+{ "name": "QuickSwap", "network": "Polygon", "category": "DEX", "status": "active" },
+{ "name": "Lens Protocol", "network": "Polygon", "category": "Social", "status": "active" },
+
+{ "name": "Magic Eden", "network": "Solana", "category": "NFT", "status": "active" },
+{ "name": "Raydium", "network": "Solana", "category": "DeFi", "status": "active" }
