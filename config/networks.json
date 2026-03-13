@@ -1,9 +1,16 @@
 {
- "chains":[
+ "chains": [
   "Ethereum",
   "Aptos",
   "Solana",
   "Polygon",
-  "Arbitrum"
+  "Arbitrum",
+  "Optimism",
+  "BNB Chain",
+  "Avalanche",
+  "Fantom",
+  "Celo",
+  "Moonbeam",
+  "Harmony"
  ]
 }
