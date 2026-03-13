@@ -15,3 +15,18 @@ function loadProjects(){
 }
 
 module.exports = { loadProjects }
+const data = require("../data/projects.json")
+
+function networkStats() {
+  const stats = {}
+
+  data.projects.forEach(project => {
+    const network = project.network
+    stats[network] = (stats[network] || 0) + 1
+  })
+
+  console.log("Web3 Ecosystem Project Distribution:")
+  console.log(stats)
+}
+
+networkStats()
