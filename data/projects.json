@@ -1,16 +1,23 @@
 [
- {"name":"Aztec","category":"ZK ecosystem"},
- {"name":"Gensyn","category":"AI compute"},
- {"name":"Movement","category":"Layer2 ecosystem"},
- {"name":"EigenLayer","category":"Restaking"},
- {"name":"Celestia","category":"Modular blockchain"}
+  {"name":"Aztec","category":"ZK ecosystem","network":"Ethereum","status":"growing"},
+  {"name":"Gensyn","category":"AI compute","network":"Multi-chain","status":"early"},
+  {"name":"Movement","category":"Layer2 ecosystem","network":"Ethereum","status":"early"},
+  {"name":"EigenLayer","category":"Restaking","network":"Ethereum","status":"active"},
+  {"name":"Celestia","category":"Modular blockchain","network":"Celestia","status":"active"},
+
+  {"name":"Uniswap","network":"Ethereum","category":"DeFi","status":"active"},
+  {"name":"Aave","network":"Ethereum","category":"DeFi","status":"active"},
+  {"name":"OpenSea","network":"Ethereum","category":"NFT","status":"active"},
+
+  {"name":"QuickSwap","network":"Polygon","category":"DEX","status":"active"},
+  {"name":"Lens Protocol","network":"Polygon","category":"Social","status":"growing"},
+
+  {"name":"Magic Eden","network":"Solana","category":"NFT","status":"active"},
+  {"name":"Raydium","network":"Solana","category":"DeFi","status":"active"},
+
+  {"name":"ZetaChain","network":"Multi-chain","category":"Interoperability","status":"growing"},
+  {"name":"Scroll","network":"Ethereum","category":"Layer2","status":"growing"},
+  {"name":"Base","network":"Ethereum","category":"Layer2","status":"active"},
+  {"name":"Linea","network":"Ethereum","category":"Layer2","status":"growing"},
+  {"name":"Blast","network":"Ethereum","category":"Layer2","status":"early"}
 ]
-{ "name": "Uniswap", "network": "Ethereum", "category": "DeFi", "status": "active" },
-{ "name": "Aave", "network": "Ethereum", "category": "DeFi", "status": "active" },
-{ "name": "OpenSea", "network": "Ethereum", "category": "NFT", "status": "active" },
-
-{ "name": "QuickSwap", "network": "Polygon", "category": "DEX", "status": "active" },
-{ "name": "Lens Protocol", "network": "Polygon", "category": "Social", "status": "active" },
-
-{ "name": "Magic Eden", "network": "Solana", "category": "NFT", "status": "active" },
-{ "name": "Raydium", "network": "Solana", "category": "DeFi", "status": "active" }
