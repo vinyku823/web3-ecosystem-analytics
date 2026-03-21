@@ -1,16 +1,64 @@
 {
- "chains": [
-  "Ethereum",
-  "Aptos",
-  "Solana",
-  "Polygon",
-  "Arbitrum",
-  "Optimism",
-  "BNB Chain",
-  "Avalanche",
-  "Fantom",
-  "Celo",
-  "Moonbeam",
-  "Harmony"
- ]
+  "chains": [
+    {
+      "name": "Ethereum",
+      "type": "Layer 1",
+      "status": "active"
+    },
+    {
+      "name": "Aptos",
+      "type": "Layer 1",
+      "status": "growing"
+    },
+    {
+      "name": "Solana",
+      "type": "Layer 1",
+      "status": "active"
+    },
+    {
+      "name": "Polygon",
+      "type": "Layer 2",
+      "status": "active"
+    },
+    {
+      "name": "Arbitrum",
+      "type": "Layer 2",
+      "status": "active"
+    },
+    {
+      "name": "Optimism",
+      "type": "Layer 2",
+      "status": "active"
+    },
+    {
+      "name": "BNB Chain",
+      "type": "Layer 1",
+      "status": "active"
+    },
+    {
+      "name": "Avalanche",
+      "type": "Layer 1",
+      "status": "active"
+    },
+    {
+      "name": "Fantom",
+      "type": "Layer 1",
+      "status": "growing"
+    },
+    {
+      "name": "Celo",
+      "type": "Layer 1",
+      "status": "growing"
+    },
+    {
+      "name": "Base",
+      "type": "Layer 2",
+      "status": "growing"
+    },
+    {
+      "name": "Linea",
+      "type": "Layer 2",
+      "status": "growing"
+    }
+  ]
 }
