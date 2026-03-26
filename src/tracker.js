@@ -1,8 +1,5 @@
 // src/tracker.js
 
-// Import dataset
-const projects = require("../data/projects.json");
-
 // -----------------------------
 // 📊 Category Tracking
 // -----------------------------
@@ -57,19 +54,34 @@ function rankProjects(projectList) {
 // -----------------------------
 // 🚀 Main Scanner
 // -----------------------------
-function scanActivity() {
+function scanActivity(projectList, networkFilter) {
   const now = new Date();
 
   console.log("\n🔍 Scanning blockchain ecosystems...");
   console.log("⏱ Scan time:", now);
 
+  // 🌐 Filter (if provided)
+  let filteredProjects = projectList;
+
+  if (networkFilter) {
+    filteredProjects = projectList.filter(
+      p => p.network.toLowerCase() === networkFilter.toLowerCase()
+    );
+  }
+
+  // ⚠️ No data case
+  if (filteredProjects.length === 0) {
+    console.log("\n⚠️ No projects found for this network.");
+    return;
+  }
+
   // 📊 Category stats
-  const categoryStats = trackByCategory(projects);
+  const categoryStats = trackByCategory(filteredProjects);
   console.log("\n📊 Projects by Category:");
   console.table(categoryStats);
 
   // 🏆 Ranking
-  const ranked = rankProjects(projects);
+  const ranked = rankProjects(filteredProjects);
 
   console.log("\n🏆 Top 5 Projects:");
   ranked.slice(0, 5).forEach((p, i) => {
