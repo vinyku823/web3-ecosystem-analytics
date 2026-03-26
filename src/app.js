@@ -1,27 +1,51 @@
 // src/app.js
 
-// Import core modules
-const analytics = require("./analytics")
-const tracker = require("./tracker")
-const collector = require("./collector")
+// Import modules
+const analytics = require("./analytics");
+const tracker = require("./tracker");
+const collector = require("./collector");
 
-// Application start
-console.log("🚀 Starting Web3 Ecosystem Analytics Tool...")
+// -----------------------------
+// 🚀 App Start
+// -----------------------------
+console.log("\n🚀 Starting Web3 Ecosystem Analytics Tool...\n");
 
-// Load project dataset
-analytics.loadProjects()
+// -----------------------------
+// 📌 CLI Arguments (Optional)
+// Example: node app.js --network ethereum
+// -----------------------------
+const args = process.argv;
+let networkFilter = null;
 
-// Scan ecosystem activity
-tracker.scanActivity()
+if (args.includes("--network")) {
+  networkFilter = args[args.indexOf("--network") + 1];
+  console.log(`🌐 Filtering by network: ${networkFilter}\n`);
+}
 
-// Collect and update data
-collector.collectData()
+// -----------------------------
+// 📂 Load Data
+// -----------------------------
+const projects = analytics.loadProjects();
 
-// Status log
-console.log("✅ Analytics workflow executed successfully")
+// -----------------------------
+// 🔍 Run Analytics
+// -----------------------------
+tracker.scanActivity(projects, networkFilter);
 
-// Future Enhancements:
-// - Integrate real-time Web3 APIs
-// - Add dashboard visualization
-// - Enable automated data updates
-// - Connect blockchain data sources
+// -----------------------------
+// 🔄 Collect / Update Data
+// -----------------------------
+collector.collectData();
+
+// -----------------------------
+// ✅ Done
+// -----------------------------
+console.log("\n✅ Analytics workflow executed successfully\n");
+
+// -----------------------------
+// 🔮 Future Enhancements
+// -----------------------------
+// - Real-time API integration
+// - Dashboard UI (React)
+// - Automated cron jobs
+// - On-chain data pipelines
