@@ -1,23 +1,176 @@
 [
-  {"name":"Aztec","category":"ZK ecosystem","network":"Ethereum","status":"growing"},
-  {"name":"Gensyn","category":"AI compute","network":"Multi-chain","status":"early"},
-  {"name":"Movement","category":"Layer2 ecosystem","network":"Ethereum","status":"early"},
-  {"name":"EigenLayer","category":"Restaking","network":"Ethereum","status":"active"},
-  {"name":"Celestia","category":"Modular blockchain","network":"Celestia","status":"active"},
+  {
+    "name": "Aztec",
+    "category": "ZK ecosystem",
+    "network": "Ethereum",
+    "status": "growing",
+    "activity": 70,
+    "growth": 82,
+    "ecosystemWeight": 75,
+    "activityHistory": [30, 45, 60, 70]
+  },
+  {
+    "name": "Gensyn",
+    "category": "AI compute",
+    "network": "Multi-chain",
+    "status": "early",
+    "activity": 55,
+    "growth": 88,
+    "ecosystemWeight": 60,
+    "activityHistory": [10, 20, 35, 55]
+  },
+  {
+    "name": "Movement",
+    "category": "Layer2 ecosystem",
+    "network": "Ethereum",
+    "status": "early",
+    "activity": 50,
+    "growth": 85,
+    "ecosystemWeight": 65,
+    "activityHistory": [15, 25, 35, 50]
+  },
+  {
+    "name": "EigenLayer",
+    "category": "Restaking",
+    "network": "Ethereum",
+    "status": "active",
+    "activity": 92,
+    "growth": 65,
+    "ecosystemWeight": 95,
+    "activityHistory": [60, 75, 85, 92]
+  },
+  {
+    "name": "Celestia",
+    "category": "Modular blockchain",
+    "network": "Celestia",
+    "status": "active",
+    "activity": 88,
+    "growth": 60,
+    "ecosystemWeight": 90,
+    "activityHistory": [55, 70, 80, 88]
+  },
 
-  {"name":"Uniswap","network":"Ethereum","category":"DeFi","status":"active"},
-  {"name":"Aave","network":"Ethereum","category":"DeFi","status":"active"},
-  {"name":"OpenSea","network":"Ethereum","category":"NFT","status":"active"},
+  {
+    "name": "Uniswap",
+    "network": "Ethereum",
+    "category": "DeFi",
+    "status": "active",
+    "activity": 95,
+    "growth": 55,
+    "ecosystemWeight": 98,
+    "activityHistory": [70, 80, 90, 95]
+  },
+  {
+    "name": "Aave",
+    "network": "Ethereum",
+    "category": "DeFi",
+    "status": "active",
+    "activity": 90,
+    "growth": 50,
+    "ecosystemWeight": 92,
+    "activityHistory": [65, 75, 85, 90]
+  },
+  {
+    "name": "OpenSea",
+    "network": "Ethereum",
+    "category": "NFT",
+    "status": "active",
+    "activity": 85,
+    "growth": 45,
+    "ecosystemWeight": 90,
+    "activityHistory": [60, 70, 80, 85]
+  },
 
-  {"name":"QuickSwap","network":"Polygon","category":"DEX","status":"active"},
-  {"name":"Lens Protocol","network":"Polygon","category":"Social","status":"growing"},
+  {
+    "name": "QuickSwap",
+    "network": "Polygon",
+    "category": "DEX",
+    "status": "active",
+    "activity": 78,
+    "growth": 50,
+    "ecosystemWeight": 80,
+    "activityHistory": [50, 60, 70, 78]
+  },
+  {
+    "name": "Lens Protocol",
+    "network": "Polygon",
+    "category": "Social",
+    "status": "growing",
+    "activity": 72,
+    "growth": 80,
+    "ecosystemWeight": 78,
+    "activityHistory": [30, 50, 65, 72]
+  },
 
-  {"name":"Magic Eden","network":"Solana","category":"NFT","status":"active"},
-  {"name":"Raydium","network":"Solana","category":"DeFi","status":"active"},
+  {
+    "name": "Magic Eden",
+    "network": "Solana",
+    "category": "NFT",
+    "status": "active",
+    "activity": 82,
+    "growth": 55,
+    "ecosystemWeight": 85,
+    "activityHistory": [55, 65, 75, 82]
+  },
+  {
+    "name": "Raydium",
+    "network": "Solana",
+    "category": "DeFi",
+    "status": "active",
+    "activity": 80,
+    "growth": 50,
+    "ecosystemWeight": 82,
+    "activityHistory": [50, 60, 70, 80]
+  },
 
-  {"name":"ZetaChain","network":"Multi-chain","category":"Interoperability","status":"growing"},
-  {"name":"Scroll","network":"Ethereum","category":"Layer2","status":"growing"},
-  {"name":"Base","network":"Ethereum","category":"Layer2","status":"active"},
-  {"name":"Linea","network":"Ethereum","category":"Layer2","status":"growing"},
-  {"name":"Blast","network":"Ethereum","category":"Layer2","status":"early"}
+  {
+    "name": "ZetaChain",
+    "network": "Multi-chain",
+    "category": "Interoperability",
+    "status": "growing",
+    "activity": 75,
+    "growth": 82,
+    "ecosystemWeight": 85,
+    "activityHistory": [40, 55, 65, 75]
+  },
+  {
+    "name": "Scroll",
+    "network": "Ethereum",
+    "category": "Layer2",
+    "status": "growing",
+    "activity": 78,
+    "growth": 85,
+    "ecosystemWeight": 88,
+    "activityHistory": [35, 50, 65, 78]
+  },
+  {
+    "name": "Base",
+    "network": "Ethereum",
+    "category": "Layer2",
+    "status": "active",
+    "activity": 90,
+    "growth": 70,
+    "ecosystemWeight": 95,
+    "activityHistory": [60, 75, 85, 90]
+  },
+  {
+    "name": "Linea",
+    "network": "Ethereum",
+    "category": "Layer2",
+    "status": "growing",
+    "activity": 76,
+    "growth": 83,
+    "ecosystemWeight": 87,
+    "activityHistory": [30, 50, 65, 76]
+  },
+  {
+    "name": "Blast",
+    "network": "Ethereum",
+    "category": "Layer2",
+    "status": "early",
+    "activity": 58,
+    "growth": 90,
+    "ecosystemWeight": 70,
+    "activityHistory": [20, 30, 45, 58]
+  }
 ]
