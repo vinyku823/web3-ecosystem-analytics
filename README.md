@@ -21,6 +21,12 @@ This project simulates an analytics engine that:
 
 ## 📈 Latest Development Activity
 
+### 🟢 March 26, 2026
+• Implemented project scoring system (activity, growth, ecosystem weight)
+• Added ranking engine for top projects
+• Introduced trend detection (growing / declining / stable)
+• Enabled CLI-based network filtering (e.g., `--network ethereum`)
+• Upgraded tracker module into analytics engine
 ### 🟢 March 23, 2026
 - Refactored analytics workflow for better structure  
 - Improved logging system for tracking activity  
